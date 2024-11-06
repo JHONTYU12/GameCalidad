@@ -78,7 +78,6 @@ Para utilizar este proyecto, simplemente sigue estos pasos:
 ## 🌟 Estilo Visual <a name="estilo-visual"></a>
 Para hacer que el juego sea más atractivo y divertido, se ha usado CSS para crear un diseño limpio y amigable. Cada botón tiene colores llamativos para guiar intuitivamente al usuario en la experiencia del juego. A continuación, algunos ejemplos de estilo:
 
-```css
 /* Botones básicos */
 .btn {
     padding: 10px 20px;
