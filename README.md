@@ -61,19 +61,53 @@ Para utilizar este proyecto, simplemente sigue estos pasos:
 - **result.js**: Manejo del resumen de errores y las opciones de finalizar o reiniciar el juego.
 - **style.css**: Estilos compartidos para todas las páginas del proyecto.
 
-### Estructura de Carpetas
-/juego-de-secuencias  
-    ├── index.html (Inicio del juego)  
-    ├── login.html  
-    ├── login.js  
-    ├── config.html  
-    ├── config.js  
-    ├── game.html  
-    ├── game.js  
-    ├── result.html  
-    ├── result.js  
-    ├── style.css (Estilos compartidos)  
-    └── README.md  
+## Archivos y Estructura
+
+Este proyecto tiene la siguiente estructura de archivos y carpetas:
+
+proyecto-de-secuencias
+  - .vscode/
+  - img/
+    - config.png
+    - game.png
+    - Login.png
+    - Resultado.png
+  - config.html
+  - config.js
+  - game.html
+  - game.js
+  - history.html
+  - history.js
+  - login.html
+  - login.js
+  - README.md
+  - result.html
+  - result.js
+  - style.css
+
+### Descripción de Archivos:
+
+- .vscode/: Carpeta con configuraciones específicas del editor Visual Studio Code.
+- img/: Contiene imágenes utilizadas en el proyecto.
+  - config.png: Imagen representativa de la configuración del juego.
+  - game.png: Imagen de la pantalla del juego.
+  - Login.png: Imagen de la pantalla de inicio de sesión.
+  - Resultado.png: Imagen que muestra la pantalla de resultados.
+- config.html: Página donde se configuran los parámetros del juego antes de iniciarlo.
+- config.js: Lógica para gestionar las configuraciones del juego y pasar los datos necesarios.
+- game.html: Página principal del juego donde se muestra la secuencia y los inputs.
+- game.js: Lógica del juego, generación de la secuencia y validación de los números.
+- history.html: Página que muestra el historial de partidas.
+- history.js: Lógica para manejar el historial de partidas jugadas.
+- login.html: Página de inicio de sesión para ingresar los IDs de terapeuta y paciente.
+- login.js: Lógica que gestiona el inicio de sesión y validación de IDs.
+- README.md: Documento que contiene la descripción y documentación del proyecto.
+- result.html: Página que muestra el resumen de resultados luego de una partida.
+- result.js: Lógica para gestionar los resultados, errores y observaciones al final del juego.
+- style.css: Archivo CSS que contiene los estilos compartidos para las diferentes páginas del proyecto.
+
+Esta estructura ofrece una visión clara de cómo se organizan los diferentes componentes del proyecto y cuál es la función de cada uno de los archivos.
+
 
 ## 🌟 Estilo Visual <a name="estilo-visual"></a>
 Para hacer que el juego sea más atractivo y divertido, se ha usado CSS para crear un diseño limpio y amigable. Cada botón tiene colores llamativos para guiar intuitivamente al usuario en la experiencia del juego. A continuación, algunos ejemplos de estilo:
