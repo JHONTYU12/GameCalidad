@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configuración del Juego</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Configuración del Juego</h2>
+    <div class="input-group">
+        <input type="number" id="range-start" placeholder="Inicio del rango" required>
+        <input type="number" id="range-end" placeholder="Fin del rango" required>
+        <input type="number" id="total-numbers" placeholder="Longitud de la secuencia" required>
+        <input type="number" id="missing-count" placeholder="Cantidad de números a encontrar" required>
+    </div>
+    <button class="btn btn-green" onclick="startGame()">Iniciar Juego</button>
+</div>
+
+<script src="config.js"></script>
+</body>
+</html>

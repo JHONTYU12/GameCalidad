@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Historial</h2>
+    
+    <!-- Cuadro de búsqueda -->
+    <div class="input-group">
+        <input type="text" id="search-patient" placeholder="Buscar por nombre del paciente">
+        <button class="btn btn-green" onclick="searchPatient()">Buscar</button>
+    </div>
+
+    <div id="history-log"></div>
+    <button class="btn btn-green" onclick="goBack()">Regresar</button>
+</div>
+
+<script src="history.js"></script>
+</body>
+</html>

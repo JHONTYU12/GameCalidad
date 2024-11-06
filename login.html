@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Bienvenido</h2>
+
+    <div class="input-group">
+        <label for="therapist-id">ID del Terapeuta:</label>
+        <input type="text" id="therapist-id" required>
+    </div>
+
+    <div class="input-group">
+        <label for="patient-id">ID del Paciente:</label>
+        <input type="text" id="patient-id" required>
+    </div>
+
+    <button class="btn btn-green" onclick="goToConfiguration()">Continuar</button>
+    <button class="btn btn-blue" onclick="goToHistory()">Historial</button>
+</div>
+
+<script src="login.js"></script>
+</body>
+</html>

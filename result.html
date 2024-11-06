@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Resultado</h2>
+    
+    <!-- Observaciones como textarea editable -->
+    <textarea id="observation" class="observation-error-container" placeholder="Observaciones"></textarea>
+    
+    <p>Tiempo: <span id="time-result">00:00:00</span></p>
+    
+    <!-- Contenedor de errores -->
+    <div id="error-count" class="observation-error-container">
+        <p>Errores en Número 1: 0</p>
+        <p class="total-errors">Errores totales: 0</p>
+    </div>
+    
+    <button class="btn btn-green" onclick="saveResult()">Guardar</button>
+    <button class="btn btn-blue" onclick="retryGame()">Volver a intentar</button>
+    <button class="btn btn-purple" onclick="newGame()">Jugar otra partida</button>
+    <button class="btn btn-gray" onclick="goToMain()">Inicio</button>
+</div>
+
+<script src="result.js"></script>
+</body>
+</html>

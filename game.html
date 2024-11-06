@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Encuentra los Números Faltantes</h2>
+    <div id="sequence-grid" class="grid"></div>
+    <h3>Números que faltan:</h3>
+    <div id="missing-inputs" class="missing-inputs">
+        <!-- Input boxes for missing numbers will be generated here -->
+    </div>
+    <button class="btn btn-green" onclick="validateInput()">Validar</button>
+    <div class="feedback" id="feedback"></div>
+</div>
+
+<script src="game.js"></script>
+</body>
+</html>
