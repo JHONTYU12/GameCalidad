@@ -29,25 +29,25 @@ Para utilizar este proyecto, simplemente sigue estos pasos:
    - Ingresa el ID del terapeuta y el ID del paciente. Haz clic en **Continuar** para ir a la configuración del juego.
    - También puedes revisar el historial haciendo clic en **Historial**.
 
-   ![Login](https://link-a-imagen-login.png)
+   ![Login](img/Login.png)
 
 2. **Configuración del Juego**:
    - Selecciona el rango de números, la longitud de la secuencia, y la cantidad de números que deseas encontrar.
    - Haz clic en **Iniciar Juego**.
 
-   ![Configuración](https://link-a-imagen-configuracion.png)
+   ![Configuración](img/config.png)
 
 3. **Pantalla de Juego**:
    - Encuentra los números que faltan en la secuencia. Los inputs se habilitarán uno por uno a medida que completes correctamente cada número.
    - Haz clic en **Validar** para comprobar cada respuesta.
 
-   ![Juego](https://link-a-imagen-juego.png)
+   ![Juego](img/game.png)
 
 4. **Pantalla de Resultados**:
    - Al finalizar el juego, se muestra un resumen de los errores cometidos y una caja de texto para observaciones.
    - Puedes **Guardar** el resultado, volver a intentar o comenzar una nueva partida.
 
-   ![Resultados](https://link-a-imagen-resultados.png)
+   ![Resultados](img/Resultado.png)
 
 ## 📂 Archivos y Estructura <a name="archivos-y-estructura"></a>
 ### Estructura de Archivos
