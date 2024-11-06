@@ -78,24 +78,9 @@ Para utilizar este proyecto, simplemente sigue estos pasos:
 ## 🌟 Estilo Visual <a name="estilo-visual"></a>
 Para hacer que el juego sea más atractivo y divertido, se ha usado CSS para crear un diseño limpio y amigable. Cada botón tiene colores llamativos para guiar intuitivamente al usuario en la experiencia del juego. A continuación, algunos ejemplos de estilo:
 
-/* Botones básicos */
-.btn {
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-}
+## 🤖 Desarrollado por Vertex Quality
+Este proyecto fue creado con pasión por **Vertex Quality** 🌀, buscando aportar diversión y aprendizaje a través de la práctica de secuencias numéricas. 
 
-.btn-green {
-    background-color: #28a745;
-    color: #fff;
-}
+¿Tienes alguna idea o simplemente quieres decir hola? 🌟
+¡No dudes en contactarnos! 📧 [contact@vertexquality.com](mailto:contact@vertexquality.com)
 
-.btn-blue {
-    background-color: #007bff;
-    color: #fff;
-}
-
-.btn-purple {
-    background-color: #6f42c1;
-    color: #fff;
-}
